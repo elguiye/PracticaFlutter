@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//Probando armado de layaut básico y uso de child/children
+//Probando armado de layout básico y uso de child/children
 //widget basicos Text y Image(network)
 void main() => runApp(MyApp());
 
@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
                 'https://willax.tv/wp-content/uploads/2019/07/PEGASO.png'),
             Text('Hello World',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25)),
+            Text("Hola Mundo 2")
           ]),
         ),
       ),
