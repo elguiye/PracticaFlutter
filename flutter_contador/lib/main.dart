@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(new MyApp());
-}
+// archivos personalizados
+///import 'src/app.dart';
+//Otra forma de importar nuestros archivos personalizados
+import 'package:flutter_contador/src/app.dart';
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(context) {
-    return MaterialApp(
-      home: Center(child: Text('Hola Mundo')),
-    );
-  }
+void main() {
+  runApp(MyApp());
 }
